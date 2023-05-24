@@ -27,7 +27,7 @@ feel free to do it any way you prefer! I should probably have used an 8x6 strip,
 putting the resistor wires in the same holes as the ATTiny85 pins! Programming was done using an
 ArduinoISP sketch, using the command line in the platformio.ini configuration file.
 
-NB: See this note in the ![ATTinyCore README](https://github.com/SpenceKonde/ATTinyCore#when-using-an-individual-chip-for-the-first-time-or-after-changing-the-clock-speed-eesave-or-bod-settings-you-must-do-burn-bootloader-to-set-the-fuses-even-if-you-are-not-using-the-chip-with-a-bootloader) to get the ATTiny running at the right clock speed! It won't work otherwise!
+NB: See this note in the [ATTinyCore README](https://github.com/SpenceKonde/ATTinyCore#when-using-an-individual-chip-for-the-first-time-or-after-changing-the-clock-speed-eesave-or-bod-settings-you-must-do-burn-bootloader-to-set-the-fuses-even-if-you-are-not-using-the-chip-with-a-bootloader) to get the ATTiny running at the right clock speed! It won't work otherwise!
 
 ![Top of ATTiny85](./images/attiny_top.jpg)
 
