@@ -17,7 +17,10 @@ This is the most sane solution I could come up with, given the constraints:
       but the ESP32's footprint is super tiny, and this is likely to cause problems, or be difficult.
 2. Ideally don't modify the hardware at all to avoid invalidating warranty protection.
 3. Ideally don't modify the ESP32 firmware either, so those less inclined to fight IoT battles can
-   avoid the difficulty of flashing ESPHome onto the board. See ![this post](https://community.home-assistant.io/t/bootloop-workaround-for-flashing-sonoff-th-elite-thr316d-thr320d-and-maybe-others-with-esphome-for-the-first-time/498868)
+   avoid the difficulty of flashing ESPHome onto the board. See [this post](https://community.home-assistant.io/t/bootloop-workaround-for-flashing-sonoff-th-elite-thr316d-thr320d-and-maybe-others-with-esphome-for-the-first-time/498868) in
+   the HomeAssistant forum for some workarounds. I ended up configuring my ESP32 in `ap:` mode, and
+   configuring the WiFi credentials for my home network via the `captive_portal:` to work around the
+   rebooting.
 
 Pictures in the images/ directory show how I put it together, on a 6x6 strip of VeroBoard, but please
 feel free to do it any way you prefer! I should probably have used an 8x6 strip, because I ended up
